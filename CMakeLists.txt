@@ -15,6 +15,7 @@ MACRO(SetupSample SampleName)
 	INCLUDE_DIRECTORIES(
 		${OpenSceneGraph_SOURCE_DIR}/include
 		${OpenSceneGraph_BINARY_DIR}/include
+		${GLCORE_ROOT}
 	)
 	ADD_EXECUTABLE(${SampleName} ${TARGET_SRC} ${TARGET_H})
 	TARGET_LINK_LIBRARIES(${SampleName} ${SAMPLE_COMMON_LIBRARIES})
