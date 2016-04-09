@@ -1,0 +1,947 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: E:/Workspace/OpenSceneGraph-Samples/OpenSceneGraph/OpenSceneGraph-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_15014.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.24723.2
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/9 13:04:16。
+项目中不存在 BeforeTargets 特性中的“C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)”位置列出的目标“BeforeGenerateProjectPriFile”，将忽略该目标。
+节点 1 上的项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_15014.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_15014.dir\Debug\”。
+  正在创建目录“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_15014.dir\Debug\cmTC_15014.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_15014.dir\Debug\cmTC_15014.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15014.dir\Debug\\" /Fd"cmTC_15014.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15014.dir\Debug\\" /Fd"cmTC_15014.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_15014.vcxproj]
+已完成生成项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_15014.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_15014.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_15014.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.35
+
+
+Performing C++ SOURCE FILE Test GL_HEADER_HAS_GLINT64 failed with the following output:
+Change Dir: E:/Workspace/OpenSceneGraph-Samples/OpenSceneGraph/OpenSceneGraph-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_597de.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.24723.2
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/9 13:04:17。
+项目中不存在 BeforeTargets 特性中的“C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)”位置列出的目标“BeforeGenerateProjectPriFile”，将忽略该目标。
+节点 1 上的项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_597de.dir\Debug\”。
+  正在创建目录“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_597de.dir\Debug\cmTC_597de.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_597de.dir\Debug\cmTC_597de.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D GL_HEADER_HAS_GLINT64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_597de.dir\Debug\\" /Fd"cmTC_597de.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D GL_HEADER_HAS_GLINT64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_597de.dir\Debug\\" /Fd"cmTC_597de.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glAccum' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C2146: syntax error: missing ';' before identifier 'GLboolean' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glArrayElement' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glBegin' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glBindTexture' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glBitmap' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glBlendFunc' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glCallList' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glCallLists' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClear' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClearAccum' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glClearColor' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glClearDepth' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glClearIndex' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glClearStencil' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2146: syntax error: missing ';' before identifier 'glClipPlane' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2146: syntax error: missing ';' before identifier 'glColor3b' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2146: syntax error: missing ';' before identifier 'glColor3bv' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2146: syntax error: missing ';' before identifier 'glColor3d' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2146: syntax error: missing ';' before identifier 'glColor3dv' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1178): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1178): fatal error C1003: error count exceeds 100; stopping compilation [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+已完成生成项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glAccum' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C2146: syntax error: missing ';' before identifier 'GLboolean' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glArrayElement' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glBegin' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glBindTexture' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glBitmap' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glBlendFunc' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glCallList' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glCallLists' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClear' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClearAccum' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glClearColor' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glClearDepth' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glClearIndex' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glClearStencil' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2146: syntax error: missing ';' before identifier 'glClipPlane' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2146: syntax error: missing ';' before identifier 'glColor3b' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2146: syntax error: missing ';' before identifier 'glColor3bv' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2146: syntax error: missing ';' before identifier 'glColor3d' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2146: syntax error: missing ';' before identifier 'glColor3dv' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1178): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1178): fatal error C1003: error count exceeds 100; stopping compilation [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_597de.vcxproj]
+
+    0 个警告
+    123 个错误
+
+已用时间 00:00:00.37
+
+Source file was:
+#include <GL/gl.h>
+    
+    int main() { GLint64 test; return 0; }
+Performing C++ SOURCE FILE Test GL_HEADER_HAS_GLUINT64 failed with the following output:
+Change Dir: E:/Workspace/OpenSceneGraph-Samples/OpenSceneGraph/OpenSceneGraph-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7cc1a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.24723.2
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/9 13:04:17。
+项目中不存在 BeforeTargets 特性中的“C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)”位置列出的目标“BeforeGenerateProjectPriFile”，将忽略该目标。
+节点 1 上的项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7cc1a.dir\Debug\”。
+  正在创建目录“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7cc1a.dir\Debug\cmTC_7cc1a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7cc1a.dir\Debug\cmTC_7cc1a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D GL_HEADER_HAS_GLUINT64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7cc1a.dir\Debug\\" /Fd"cmTC_7cc1a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D GL_HEADER_HAS_GLUINT64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7cc1a.dir\Debug\\" /Fd"cmTC_7cc1a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glAccum' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C2146: syntax error: missing ';' before identifier 'GLboolean' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glArrayElement' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glBegin' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glBindTexture' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glBitmap' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glBlendFunc' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glCallList' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glCallLists' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClear' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClearAccum' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glClearColor' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glClearDepth' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glClearIndex' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glClearStencil' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2146: syntax error: missing ';' before identifier 'glClipPlane' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2146: syntax error: missing ';' before identifier 'glColor3b' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2146: syntax error: missing ';' before identifier 'glColor3bv' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2146: syntax error: missing ';' before identifier 'glColor3d' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'WINGDIAPI'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): note: see declaration of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2146: syntax error: missing ';' before identifier 'glColor3dv' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1178): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1178): fatal error C1003: error count exceeds 100; stopping compilation [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+已完成生成项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glAccum' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1159): error C2146: syntax error: missing ';' before identifier 'GLboolean' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glArrayElement' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glBegin' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glBindTexture' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glBitmap' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glBlendFunc' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glCallList' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glCallLists' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClear' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClearAccum' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glClearColor' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glClearDepth' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glClearIndex' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glClearStencil' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1173): error C2146: syntax error: missing ';' before identifier 'glClipPlane' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1174): error C2146: syntax error: missing ';' before identifier 'glColor3b' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1175): error C2146: syntax error: missing ';' before identifier 'glColor3bv' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1176): error C2146: syntax error: missing ';' before identifier 'glColor3d' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2086: 'int WINGDIAPI': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2182: 'APIENTRY': illegal use of type 'void' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2086: 'int APIENTRY': redefinition [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1177): error C2146: syntax error: missing ';' before identifier 'glColor3dv' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1178): error C2144: syntax error: 'void' should be preceded by ';' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\um\GL/gl.h(1178): fatal error C1003: error count exceeds 100; stopping compilation [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_7cc1a.vcxproj]
+
+    0 个警告
+    123 个错误
+
+已用时间 00:00:00.36
+
+Source file was:
+#include <GL/gl.h>
+    
+    int main() { GLuint64 test; return 0; }
+Performing C++ SOURCE FILE Test _OPENTHREADS_ATOMIC_USE_GCC_BUILTINS failed with the following output:
+Change Dir: E:/Workspace/OpenSceneGraph-Samples/OpenSceneGraph/OpenSceneGraph-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_153ac.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.24723.2
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/9 13:04:19。
+项目中不存在 BeforeTargets 特性中的“C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)”位置列出的目标“BeforeGenerateProjectPriFile”，将忽略该目标。
+节点 1 上的项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_153ac.dir\Debug\”。
+  正在创建目录“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_153ac.dir\Debug\cmTC_153ac.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_153ac.dir\Debug\cmTC_153ac.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _OPENTHREADS_ATOMIC_USE_GCC_BUILTINS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_153ac.dir\Debug\\" /Fd"cmTC_153ac.dir\Debug\vc140.pdb" /Gd /TP /wd4706 /wd4127 /wd4100 /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _OPENTHREADS_ATOMIC_USE_GCC_BUILTINS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_153ac.dir\Debug\\" /Fd"cmTC_153ac.dir\Debug\vc140.pdb" /Gd /TP /wd4706 /wd4127 /wd4100 /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(8): error C3861: '__sync_add_and_fetch': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj]
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(9): error C3861: '__sync_synchronize': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj]
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(10): error C3861: '__sync_sub_and_fetch': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj]
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(11): error C3861: '__sync_bool_compare_and_swap': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj]
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(14): error C3861: '__sync_bool_compare_and_swap': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj]
+已完成生成项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(8): error C3861: '__sync_add_and_fetch': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj]
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(9): error C3861: '__sync_synchronize': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj]
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(10): error C3861: '__sync_sub_and_fetch': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj]
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(11): error C3861: '__sync_bool_compare_and_swap': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj]
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(14): error C3861: '__sync_bool_compare_and_swap': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_153ac.vcxproj]
+
+    0 个警告
+    5 个错误
+
+已用时间 00:00:00.39
+
+Return value: 1
+Source file was:
+
+       #include <cstdlib>
+
+       int main()
+       {
+          unsigned value = 0;
+          void* ptr = &value;
+          __sync_add_and_fetch(&value, 1);
+          __sync_synchronize();
+          __sync_sub_and_fetch(&value, 1);
+          if (!__sync_bool_compare_and_swap(&value, 0, 1))
+             return EXIT_FAILURE;
+
+          if (!__sync_bool_compare_and_swap(&ptr, ptr, ptr))
+             return EXIT_FAILURE;
+
+          return EXIT_SUCCESS;
+       }
+       
+Performing C++ SOURCE FILE Test _OPENTHREADS_ATOMIC_USE_MIPOSPRO_BUILTINS failed with the following output:
+Change Dir: E:/Workspace/OpenSceneGraph-Samples/OpenSceneGraph/OpenSceneGraph-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5e028.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.24723.2
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/9 13:04:20。
+项目中不存在 BeforeTargets 特性中的“C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)”位置列出的目标“BeforeGenerateProjectPriFile”，将忽略该目标。
+节点 1 上的项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5e028.dir\Debug\”。
+  正在创建目录“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5e028.dir\Debug\cmTC_5e028.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5e028.dir\Debug\cmTC_5e028.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _OPENTHREADS_ATOMIC_USE_MIPOSPRO_BUILTINS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5e028.dir\Debug\\" /Fd"cmTC_5e028.dir\Debug\vc140.pdb" /Gd /TP /wd4706 /wd4127 /wd4100 /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _OPENTHREADS_ATOMIC_USE_MIPOSPRO_BUILTINS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5e028.dir\Debug\\" /Fd"cmTC_5e028.dir\Debug\vc140.pdb" /Gd /TP /wd4706 /wd4127 /wd4100 /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(8): error C3861: '__add_and_fetch': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(9): error C3861: '__synchronize': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(10): error C3861: '__sub_and_fetch': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(11): error C3861: '__compare_and_swap': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(14): warning C4311: 'type cast': pointer truncation from 'void *' to 'unsigned long' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(14): warning C4302: 'type cast': truncation from 'void *' to 'unsigned long' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(14): error C3861: '__compare_and_swap': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+已完成生成项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(14): warning C4311: 'type cast': pointer truncation from 'void *' to 'unsigned long' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(14): warning C4302: 'type cast': truncation from 'void *' to 'unsigned long' [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+
+
+“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(8): error C3861: '__add_and_fetch': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(9): error C3861: '__synchronize': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(10): error C3861: '__sub_and_fetch': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(11): error C3861: '__compare_and_swap': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(14): error C3861: '__compare_and_swap': identifier not found [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_5e028.vcxproj]
+
+    2 个警告
+    5 个错误
+
+已用时间 00:00:00.43
+
+Return value: 1
+Source file was:
+
+       #include <stdlib.h>
+
+       int main(int, const char**)
+       {
+          unsigned value = 0;
+          void* ptr = &value;
+          __add_and_fetch(&value, 1);
+          __synchronize(value);
+          __sub_and_fetch(&value, 1);
+          if (!__compare_and_swap(&value, 0, 1))
+             return EXIT_FAILURE;
+
+          if (!__compare_and_swap((unsigned long*)&ptr, (unsigned long)ptr, (unsigned long)ptr))
+             return EXIT_FAILURE;
+
+          return EXIT_SUCCESS;
+       }
+       
+Performing C++ SOURCE FILE Test _OPENTHREADS_ATOMIC_USE_SUN failed with the following output:
+Change Dir: E:/Workspace/OpenSceneGraph-Samples/OpenSceneGraph/OpenSceneGraph-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a63e2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.24723.2
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/9 13:04:20。
+项目中不存在 BeforeTargets 特性中的“C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)”位置列出的目标“BeforeGenerateProjectPriFile”，将忽略该目标。
+节点 1 上的项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_a63e2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a63e2.dir\Debug\”。
+  正在创建目录“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a63e2.dir\Debug\cmTC_a63e2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a63e2.dir\Debug\cmTC_a63e2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _OPENTHREADS_ATOMIC_USE_SUN /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a63e2.dir\Debug\\" /Fd"cmTC_a63e2.dir\Debug\vc140.pdb" /Gd /TP /wd4706 /wd4127 /wd4100 /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _OPENTHREADS_ATOMIC_USE_SUN /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a63e2.dir\Debug\\" /Fd"cmTC_a63e2.dir\Debug\vc140.pdb" /Gd /TP /wd4706 /wd4127 /wd4100 /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(2): fatal error C1083: Cannot open include file: 'atomic.h': No such file or directory [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_a63e2.vcxproj]
+已完成生成项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_a63e2.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_a63e2.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(2): fatal error C1083: Cannot open include file: 'atomic.h': No such file or directory [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_a63e2.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.37
+
+Return value: 1
+Source file was:
+
+       #include <atomic.h>
+       #include <cstdlib>
+
+       int main(int, const char**)
+       {
+          uint_t value = 0;
+          void* ptr = &value;
+          atomic_inc_uint_nv(&value);
+          membar_consumer();
+          atomic_dec_uint_nv(&value);
+          if (0 != atomic_cas_uint(&value, 0, 1))
+             return EXIT_FAILURE;
+
+          if (ptr != atomic_cas_ptr(&ptr, ptr, ptr))
+             return EXIT_FAILURE;
+
+          return EXIT_SUCCESS;
+       }
+       
+Performing C++ SOURCE FILE Test _OPENTHREADS_ATOMIC_USE_BSD_ATOMIC failed with the following output:
+Change Dir: E:/Workspace/OpenSceneGraph-Samples/OpenSceneGraph/OpenSceneGraph-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_36b9a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.24723.2
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/9 13:04:22。
+项目中不存在 BeforeTargets 特性中的“C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)”位置列出的目标“BeforeGenerateProjectPriFile”，将忽略该目标。
+节点 1 上的项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_36b9a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_36b9a.dir\Debug\”。
+  正在创建目录“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_36b9a.dir\Debug\cmTC_36b9a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_36b9a.dir\Debug\cmTC_36b9a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _OPENTHREADS_ATOMIC_USE_BSD_ATOMIC /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_36b9a.dir\Debug\\" /Fd"cmTC_36b9a.dir\Debug\vc140.pdb" /Gd /TP /wd4706 /wd4127 /wd4100 /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _OPENTHREADS_ATOMIC_USE_BSD_ATOMIC /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_36b9a.dir\Debug\\" /Fd"cmTC_36b9a.dir\Debug\vc140.pdb" /Gd /TP /wd4706 /wd4127 /wd4100 /errorReport:queue "E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(2): fatal error C1083: Cannot open include file: 'libkern/OSAtomic.h': No such file or directory [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_36b9a.vcxproj]
+已完成生成项目“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_36b9a.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_36b9a.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\src.cxx(2): fatal error C1083: Cannot open include file: 'libkern/OSAtomic.h': No such file or directory [E:\Workspace\OpenSceneGraph-Samples\OpenSceneGraph\OpenSceneGraph-3.4.0\build\CMakeFiles\CMakeTmp\cmTC_36b9a.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.35
+
+Return value: 1
+Source file was:
+
+       #include <libkern/OSAtomic.h>
+
+       int main()
+       {
+         volatile int32_t value = 0;
+         long data = 0;
+         long * volatile ptr = &data;
+
+         OSAtomicIncrement32(&value);
+         OSMemoryBarrier();
+         OSAtomicDecrement32(&value);
+         OSAtomicCompareAndSwapInt(value, 1, &value);
+         OSAtomicCompareAndSwapPtr(ptr, ptr, (void * volatile *)&ptr);
+       }
+       
