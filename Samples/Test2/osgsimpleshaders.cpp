@@ -111,10 +111,11 @@ class AnimateCallback: public osg::UniformCallback
         Operation _operation;
 };
 
-int main(int, char **)
+int main(int argc, char **argv)
 {
     // construct the viewer.
-    osgViewer::Viewer viewer;
+	osg::ArgumentParser arguments(&argc, argv);
+    osgViewer::Viewer viewer(arguments);
 
     // use a geode with a Box ShapeDrawable
     osg::Geode* basicModel = new osg::Geode();
