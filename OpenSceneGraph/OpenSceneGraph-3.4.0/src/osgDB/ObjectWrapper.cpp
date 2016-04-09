@@ -366,6 +366,10 @@ RegisterCustomWrapperProxy::~RegisterCustomWrapperProxy()
     }
 }
 
+#if defined(OSG_GL3_AVAILABLE)
+	#define GL_VERTEX_PROGRAM_TWO_SIDE        0x8643
+#endif
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 // ObjectWrapperManager
