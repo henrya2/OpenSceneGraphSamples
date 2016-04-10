@@ -1,6 +1,7 @@
 #include <osg/ShapeDrawable>
 #include <osg/Geode>
 #include <osgViewer/Viewer>
+#include <osgUtil/ShaderGen>
 
 int main(int argc, char** argv)
 {
@@ -20,8 +21,17 @@ int main(int argc, char** argv)
 	root->addDrawable(shape2.get());
 	root->addDrawable(shape3.get());
 
+	root->getOrCreateStateSet();
+
+	osgUtil::ShaderGenVisitor shaderGenVisitor;
+
 	osg::ArgumentParser arguments(&argc, argv);
 	osgViewer::Viewer viewer(arguments);
+
+	shaderGenVisitor.setRootStateSet(viewer.getCamera()->getStateSet());
+	root->accept(shaderGenVisitor);
+
 	viewer.setSceneData(root.get());
+
 	return viewer.run();
 }
